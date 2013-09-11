@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language-pack>
+  <!--
+		This language file gets loaded if TinyMCE is in developer mode. This XML is used to generate all <code>.js/<code_dlg>.js files.
+		Consult the Wiki for more details: http://wiki.moxiecode.com/index.php/TinyMCE:Creating_Language
+	-->
+    
+    <header>
+        <author>Moxiecode Systems AB</author>
+        <version major="" minor="0" releasedate="2010-11-23" />
+        <description>This is the Portuguese language pack for the MCFileManager.</description>
+    </header>
+    <language code="pt" title="Português" dir="ltr">
+	<group target="error">
+		<item name="tofile_exists">O arquivo já existe.</item>
+		<item name="no_from_file">O arquivo de origem não existe.</item>
+		<item name="demo">A ação é restrita no modo de demonstração.</item>
+		<item name="invalid_filename">O nome do arquivo não é válido.</item>
+		<item name="no_write_access">Sem acesso para edição do arquivo ou pasta.</item>
+		<item name="copy_failed">Erro ao copiar.</item>
+		<item name="move_failed">Erro ao mover.</item>
+		<item name="template_missing">Modelo não encontrado.</item>
+		<item name="createdoc_failed">Erro ao criar documento.</item>
+		<item name="no_access">Você não tem acesso para realizar essa operação.</item>
+		<item name="file_exists">O arquivo já existe.</item>
+		<item name="upload_failed">Erro ao enviar. Verifique suas permissões de edição da pasta.</item>
+		<item name="error_to_large">O tamanho máximo de arquivo foi atingido.</item>
+		<item name="file_not_exists">O arquivo não existe.</item>
+		<item name="delete_failed">Erro ao excluir.</item>
+		<item name="folder_exists">A pasta já existe.</item>
+		<item name="no_filesystem">O arquivo do sistema não foi encontrado.</item>
+		<item name="createdir_failed">Erro ao criar pasta.</item>
+		<item name="createzip_failed">Erro ao compactar.</item>
+		<item name="rename_failed">Erro ao renomear.</item>
+		<item name="no_read_access"></item>
+		<item name="savecontent_failed"></item>
+	</group>
+	<group target="message">
+		<item name="zip_success">Compactado com sucesso.</item>
+		<item name="copy_success">Copiado com sucesso.</item>
+		<item name="move_success">Movido com sucesso.</item>
+		<item name="createdoc_success">Documento foi criado com sucesso.</item>
+		<item name="delete_success">Excluído com sucesso.</item>
+		<item name="directory_ok">Pasta criada com sucesso.</item>
+		<item name="keepalive">Mater vivo</item>
+		<item name="upload_ok">Envio realizado com sucesso.</item>
+		<item name="confirm_cut">Você deseja recortar o(s) arquivo(s) selecionado(s)?</item>
+		<item name="confirm_copy">Você deseja copiar o(s) arquivo(s) selecionado(s)?</item>
+		<item name="confirm_paste">Você deseja colar aqui o(s) arquivo(s) copiado(s)/recortado(s)?</item>
+		<item name="confirm_delete">Você deseja excluir o(s) arquivo(s) selecionado(s)?</item>
+		<item name="insert">Obtendo dados do arquivo, aguarde...</item>
+		<item name="paste_in_progress">Operação de colar em andamento, por favor, aguarde...</item>
+	</group>
+	<group target="common">
+		<item name="createdir">Criar pasta</item>
+		<item name="createfile">Novo arquivo</item>
+		<item name="help">Ajuda</item>
+		<item name="refresh">Atualizar</item>
+		<item name="upload">Enviar</item>
+		<item name="directory">Pasta selecionada</item>
+		<item name="imagemanager">Gerenciador de imagem</item>
+		<item name="title">Gerenciador de arquivo Moxiecode</item>
+		<item name="alert_ok">Ok</item>
+		<item name="confirm_yes">Sim</item>
+		<item name="confirm_no">Não</item>
+	</group>
+	<group target="button">
+		<item name="create">Criar</item>
+		<item name="cancel">Cancelar</item>
+		<item name="save"></item>
+	</group>
+	<group target="panel">
+		<item name="categories">Categorias</item>
+		<item name="preview">Visualizar</item>
+		<item name="favorites">Favoritos</item>
+		<item name="history">Histórico</item>
+	</group>
+	<group target="actions">
+		<item name="insert">Inserir</item>
+		<item name="download">Baixar</item>
+		<item name="rename">Renomear</item>
+		<item name="cut">Recortar</item>
+		<item name="copy">Copiar</item>
+		<item name="paste">Colar</item>
+		<item name="deleteit">Excluir</item>
+		<item name="zip">Compactar</item>
+		<item name="view">Visualizar</item>
+		<item name="select_all">Marcar todos</item>
+		<item name="unselect_all">Desmarcar todos</item>
+		<item name="addfavorites">Adicionar favorito(s)</item>
+		<item name="removefavorites">Remover favorito(s)</item>
+		<item name="edit"></item>
+	</group>
+	<group target="filelist">
+		<item name="filename">Nome do arquivo</item>
+		<item name="size">Tamanho</item>
+		<item name="type">Tipo</item>
+		<item name="modified">Modificado em:</item>
+		<item name="with_selected">Com selecionado:</item>
+		<item name="info_dirs">Pastas:</item>
+		<item name="info_files">Arquivos:</item>
+		<item name="info_size">Total de tamanho do arquivo:</item>
+		<item name="info_access">Acesso:</item>
+		<item name="loading">Carregando...</item>
+	</group>
+	<group target="createdir">
+		<item name="title">Criar pasta</item>
+		<item name="description">Insira um nome para a pasta que deseja criar.</item>
+		<item name="template">Modelo:</item>
+		<item name="select_template">-- Selecione modelo --</item>
+		<item name="directory_name">Nome da pasta:</item>
+		<item name="create_in">Criar em:</item>
+		<item name="progress">Criando pasta, por favor, aguarde...</item>
+	</group>
+	<group target="createdoc">
+		<item name="title">Criar documento</item>
+		<item name="description">Preencha o formulário para criar um novo documento de um modelo.</item>
+		<item name="template">Modelo:</item>
+		<item name="select_template">-- Selecione modelo --</item>
+		<item name="name">Nome</item>
+		<item name="path">Caminho</item>
+		<item name="preview">Visualizar</item>
+		<item name="preview_title"></item>
+	</group>
+	<group target="upload">
+		<item name="title">Enviar</item>
+		<item name="description">Utilize o formulário para enviar arquivos.</item>
+		<item name="valid_extensions">Extensões válidas:</item>
+		<item name="max_upload_size">Tamanho máximo para envio:</item>
+		<item name="file_to_upload">Arquivo para envio:</item>
+		<item name="as_file_name">Nome do arquivo:</item>
+		<item name="path">Caminho: </item>
+		<item name="button_upload">Enviar</item>
+		<item name="browse">Adicionar arquivo(s)</item>
+		<item name="progress">Enviando...</item>
+		<item name="upload_warn">Os arquivos estão sendo enviados. Deseja cancelar?</item>
+		<item name="statusrow"></item>
+		<item name="progressinfo"></item>
+		<item name="abort"></item>
+		<item name="add_more"></item>
+		<item name="upload_to_server"></item>
+		<item name="cancelled"></item>
+		<item name="choose_files"></item>
+		<item name="basic_upload"></item>
+		<item name="remove"></item>
+		<item name="file"></item>
+		<item name="size"></item>
+		<item name="status"></item>
+		<item name="no_valid_files"></item>
+	</group>
+	<group target="createzip">
+		<item name="title">Criar pasta compactada</item>
+		<item name="description">Insira o nome da pasta compactada que você deseja criar.</item>
+		<item name="name">Nome:</item>
+		<item name="path">Caminho</item>
+	</group>
+	<group target="tinymce">
+		<item name="insertfile_desc">Inserir arquivo</item>
+	</group>
+	<group target="edit">
+		<item name="title"></item>
+	</group>
+		<group target="favorites">
+			<item name="special_folder_title">Favorites</item>
+			<item name="addfavorites">Add favorite(s)</item>
+			<item name="removefavorites">Remove favorite(s)</item>
+			<item name="confirm_remove_favorite">Are you sure you wish to remove this from your favorites list?</item>
+			<item name="remove_favorite_failed">Failed to remove the favorite from your favorites list.</item>
+		</group>
+
+		<group target="history">
+			<item name="special_folder_title">History</item>
+		</group>
+	<group target="uploaded">
+		<item name="special_folder_title"></item>
+	</group>
+    </language>
+</language-pack>

@@ -1,0 +1,102 @@
+*{
+	margin:0 auto;
+	padding: 0px;
+}
+
+html {
+	margin:0 auto;
+	padding: 0px;
+}
+
+body {
+	background-color: #000;
+}
+#questCorpo{
+	width: 800px;
+	height: 560px;
+	background-image: url(moldura.jpg);
+}
+#questCorpo header{
+	width: 800px;
+	height: 45px;
+	position: relative;
+	float: left;
+}
+
+
+#questCorpo nav#comptp{ position: absolute; top:187px; }
+nav#comptp ul{ margin: 0; padding: 0; list-style: none; position:relative; }
+nav#comptp ul li{ width: 100%; display: block; }
+nav#comptp li{ float: left; 	display: block; position: relative; margin-left:0; }
+nav#comptp a { width:6px; border: 2px solid #ccc; padding: 1px 5px 1px 5px; float: left; display: block; background:#393939; color: #fff; font: bold 11px Arial, sans-serif; text-decoration: none; height: 1%; } 
+nav#comptp a:hover,nav#comptp li:hover a,nav#comptp li:hover a   { background: #E5E5E5; color:#000; } 
+
+
+#questCorpo nav#alttp{ position: absolute; top:424px; }
+nav#alttp ul{ margin: 0; padding: 0; list-style: none; position:relative; }
+nav#alttp ul li{ width: 100%; display: block; }
+nav#alttp li{ float: left; 	display: block; position: relative; margin-left:0; }
+nav#alttp a { width:6px; border: 2px solid #ccc; padding: 1px 5px 1px 5px; float: left; display: block; background:#393939; color: #fff; font: bold 11px Arial, sans-serif; text-decoration: none; height: 1%; } 
+nav#alttp a:hover,nav#alttp li:hover a, nav#alttp li.iehover a,nav#alttp li.active a   { background: #E5E5E5; color:#000; } 
+
+
+#questCorpo footer{
+	width: 762px;
+	height: 500px;
+	margin-top:2px;
+	margin-left: 18px;
+	/*border: 1px solid #000;*/
+	position: relative;
+	float: left;
+}
+
+#questCorpo footer #enun{
+	margin:2px;
+	width: 756px;
+	height: 130px;
+	position: relative;
+	float: left;
+	border: 2px dashed #999;
+}
+
+#questCorpo footer #complemento{
+	margin:2px;
+	width: 756px;
+	height: 230px;
+	position: relative;
+	float: left;
+	border: 2px dashed #999;
+}
+
+#questCorpo footer #alternativaA, #questCorpo footer #alternativaB{
+	margin:2px;
+	width: 756px;
+	height: 122px;
+	position: relative;
+	float: left;
+	border: 2px dashed #999;
+}
+
+
+#alternativaA p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#alternativaA input[type=text]{
+	width: 700px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #ccc;
+	border: 1px solid #666;
+}
+
+#alternativaA input[type=text]:hover, #alternativaA input[type=text]:active{
+	width: 700px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+	border: 1px solid #C39200;
+}
+
